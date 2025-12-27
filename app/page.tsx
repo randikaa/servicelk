@@ -3,7 +3,6 @@
 import { Hero } from "@/components/marketplace/Hero"
 import { CategoryGrid } from "@/components/marketplace/CategoryGrid"
 import { TrustSection } from "@/components/marketplace/TrustSection"
-import { Footer } from "@/components/marketplace/Footer"
 
 export default function Home() {
   return (
@@ -11,7 +10,6 @@ export default function Home() {
       <Hero />
       <CategoryGrid />
       <TrustSection />
-      <Footer />
     </main>
   )
 }

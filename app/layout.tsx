@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
 import { Header } from "@/components/marketplace/Header"
+import { Footer } from "@/components/marketplace/Footer"
 import { LanguageProvider } from '@/lib/context/LanguageContext'
 import './globals.css'
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <LanguageProvider>
           <Header />
           {children}
+          <Footer />
         </LanguageProvider>
         <Analytics />
       </body>

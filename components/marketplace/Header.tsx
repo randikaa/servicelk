@@ -123,9 +123,11 @@ export function Header() {
 
 
 
-          <Button variant="ghost" className="font-medium text-slate-600 hover:text-primary">
-            Become a Seller
-          </Button>
+          <Link href="/become-seller">
+            <Button variant="ghost" className="font-medium text-slate-600 hover:text-primary">
+              Become a Seller
+            </Button>
+          </Link>
           
           <SignInDialog>
             <Button variant="ghost" className="font-medium text-slate-600 hover:text-primary">
@@ -159,7 +161,7 @@ export function Header() {
                   <button className="font-medium hover:text-primary text-left w-full">Sign In</button>
                 </SignInDialog>
                 <Link href="#" className="font-medium hover:text-primary">Browse Categories</Link>
-                <Link href="#" className="font-medium hover:text-primary">Become a Seller</Link>
+                <Link href="/become-seller" className="font-medium hover:text-primary">Become a Seller</Link>
                 
                 <div className="flex items-center gap-4 mt-4 border-t pt-4">
                     <Button 
