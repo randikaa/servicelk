@@ -149,7 +149,7 @@ export function SignInDialog({ children }: SignInDialogProps) {
                 </div>
 
                 <div className="pt-4 text-xs text-center text-muted-foreground">
-                  By joining, you agree to the ServiceLK{" "}
+                  By joining, you agree to the srilanzer{" "}
                   <Link href="#" className="underline underline-offset-2 hover:text-slate-900">
                     Terms of Service
                   </Link>{" "}
@@ -211,7 +211,7 @@ export function SignInDialog({ children }: SignInDialogProps) {
                   </Button>
 
                    <div className="pt-4 text-xs text-center text-muted-foreground border-t mt-6">
-                    By joining, you agree to the ServiceLK{" "}
+                    By joining, you agree to the srilanzer{" "}
                     <Link href="#" className="underline underline-offset-2 hover:text-slate-900">
                       Terms of Service
                     </Link>{" "}

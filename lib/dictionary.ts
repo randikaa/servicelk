@@ -1,7 +1,7 @@
 export const dictionary = {
     en: {
         header: {
-            pro: "ServiceLK Pro",
+            pro: "srilanzer Pro",
             explore: "Explore",
             becomeSeller: "Become a Seller",
             signIn: "Sign In",
@@ -49,12 +49,12 @@ export const dictionary = {
             col_cat: "Categories",
             col_support: "Support",
             col_company: "Company",
-            rights: "ServiceLK Marketplace. All rights reserved.",
+            rights: "srilanzer. All rights reserved.",
         }
     },
     si: {
         header: {
-            pro: "ServiceLK Pro",
+            pro: "srilanzer Pro",
             explore: "ගවේෂණය",
             becomeSeller: "විකුණුම්කරුවෙකු වන්න",
             signIn: "පිවිසෙන්න",
@@ -102,7 +102,7 @@ export const dictionary = {
             col_cat: "වර්ගීකරණයන්",
             col_support: "සහාය",
             col_company: "ආයතනය",
-            rights: "ServiceLK Marketplace. සියලුම හිමිකම් ඇවිරිණි.",
+            rights: "srilanzer.. සියලුම හිමිකම් ඇවිරිණි.",
         }
     }
 }

@@ -14,7 +14,9 @@ export function Footer() {
           
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <h2 className="text-2xl font-bold text-white mb-4">ServiceLK</h2>
+            <div className="text-2xl font-medium tracking-tighter text-white mb-4">
+              sril<span className="text-primary font-black">anzer</span><span className="text-black text-3xl leading-none">.</span>
+            </div>
             <p className="text-sm leading-relaxed mb-6 text-slate-400">
               {t.footer.tagline}
             </p>
@@ -44,8 +46,8 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li><Link href="#" className="hover:text-white transition-colors">Help Center</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Trust & Safety</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Selling on ServiceLK</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Buying on ServiceLK</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Selling on srilanzer</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Buying on srilanzer</Link></li>
             </ul>
           </div>
 

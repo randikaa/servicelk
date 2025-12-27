@@ -60,7 +60,7 @@ export function SignUpDialog({ children }: SignUpDialogProps) {
             <div className="relative z-10 space-y-6">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold leading-tight">
-                  Join ServiceLK
+                  Join srilanzer
                 </h2>
                 <ul className="space-y-3 pt-2">
                   <li className="flex items-start gap-2">
@@ -144,7 +144,7 @@ export function SignUpDialog({ children }: SignUpDialogProps) {
                 </div>
 
                 <div className="pt-4 text-xs text-center text-muted-foreground">
-                  By joining, you agree to the ServiceLK{" "}
+                  By joining, you agree to the srilanzer{" "}
                   <Link href="#" className="underline underline-offset-2 hover:text-slate-900">
                     Terms of Service
                   </Link>{" "}
@@ -202,7 +202,7 @@ export function SignUpDialog({ children }: SignUpDialogProps) {
                   </Button>
 
                    <div className="pt-4 text-xs text-center text-muted-foreground border-t mt-6">
-                    By joining, you agree to the ServiceLK{" "}
+                    By joining, you agree to the srilanzer{" "}
                     <Link href="#" className="underline underline-offset-2 hover:text-slate-900">
                       Terms of Service
                     </Link>{" "}

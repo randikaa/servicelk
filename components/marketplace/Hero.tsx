@@ -14,7 +14,7 @@ export function Hero() {
     <section className="relative w-full bg-slate-50 border-b border-slate-200 py-20 lg:py-32 overflow-hidden">
       {/* Abstract Background Decoration */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl opacity-50 pointer-events-none" />
-      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-blue-400/5 rounded-full blur-3xl opacity-50 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-primary/5 rounded-full blur-3xl opacity-50 pointer-events-none" />
 
       <div className="container px-4 md:px-6 mx-auto relative z-10 text-center">
         

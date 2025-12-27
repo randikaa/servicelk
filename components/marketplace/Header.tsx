@@ -25,6 +25,7 @@ import { Language } from "@/lib/dictionary"
 import React from "react"
 import { SignInDialog } from "@/components/auth/SignInDialog"
 import { SignUpDialog } from "@/components/auth/SignUpDialog"
+import { TrendingBar } from "./TrendingBar"
 
 export function Header() {
   const { language, setLanguage } = useLanguage()
@@ -41,8 +42,8 @@ export function Header() {
         {/* Left: Logo & Search */}
         <div className="flex items-center gap-6 lg:gap-8 flex-1">
           <Link href="/" className="flex items-end">
-            <span className="text-2xl md:text-3xl font-black tracking-tighter text-slate-900">
-              serviceLK<span className="text-primary text-4xl leading-none">.</span>
+            <span className="text-2xl md:text-3xl font-medium tracking-tighter text-slate-900">
+              sril<span className="text-primary font-black">anzer</span><span className="text-slate-900 text-4xl leading-none">.</span>
             </span>
           </Link>
 
@@ -60,7 +61,7 @@ export function Header() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="h-9 bg-transparent hover:bg-slate-100 hover:text-primary transition-colors border-none shadow-none">ServiceLK Pro</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="h-9 bg-transparent hover:bg-slate-100 hover:text-primary transition-colors border-none shadow-none">srilanzer Pro</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                     <li className="row-span-3">
@@ -70,7 +71,7 @@ export function Header() {
                           href="/"
                         >
                           <div className="mb-2 mt-4 text-lg font-medium text-white">
-                            ServiceLK Pro
+                            srilanzer Pro
                           </div>
                           <p className="text-sm leading-tight text-white/90">
                             The top 1% of talent for your most critical projects. Verified & Vetted.
@@ -151,7 +152,7 @@ export function Header() {
             <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
             <div className="flex flex-col gap-6 mt-6">
               <SignUpDialog>
-                <Button className="w-full">Join ServiceLK</Button>
+                <Button className="w-full">Join srilanzer</Button>
               </SignUpDialog>
               <div className="flex flex-col gap-4 text-lg">
                 <SignInDialog>
@@ -182,6 +183,7 @@ export function Header() {
         </Sheet>
 
       </div>
+      <TrendingBar />
     </header>
   )
 }

@@ -19,7 +19,7 @@ export function TrustSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Feature 1 */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-50 text-primary rounded-2xl flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
               <ShieldCheck className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">{t.trust.verified_title}</h3>
@@ -28,7 +28,7 @@ export function TrustSection() {
 
           {/* Feature 2 */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-50 text-primary rounded-2xl flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
               <Lock className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">{t.trust.escrow_title}</h3>
@@ -37,7 +37,7 @@ export function TrustSection() {
 
           {/* Feature 3 */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-50 text-primary rounded-2xl flex items-center justify-center mb-6">
+            <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
               <Headset className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">{t.trust.support_title}</h3>

@@ -17,6 +17,15 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @layer base {
@@ -38,21 +47,21 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 43% 11%;
 
-    /* Primary - Vibrant Blue #0056D2 */
-    --primary: 215 100% 41%;
+    /* Primary - Vibrant Green #317100 */
+    --primary: 94 100% 22.2%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - Soft Blue #E6F0FA */
-    --secondary: 210 60% 94%;
-    --secondary-foreground: 215 100% 41%;
+    /* Secondary - Soft Green */
+    --secondary: 94 40% 94%;
+    --secondary-foreground: 94 100% 22.2%;
 
     /* Muted - Backgrounds */
     --muted: 210 40% 96.1%;
     --muted-foreground: 215 16% 47%;
 
     /* Accent - Hover states */
-    --accent: 210 60% 94%;
-    --accent-foreground: 215 100% 41%;
+    --accent: 94 40% 94%;
+    --accent-foreground: 94 100% 22.2%;
 
     /* Destructive - Red */
     --destructive: 0 84.2% 60.2%;
@@ -61,7 +70,7 @@
     /* Borders - #EAECF0 */
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 215 100% 41%;
+    --ring: 94 100% 22.2%;
 
     /* Chart Colors */
     --chart-1: 12 76% 61%;
@@ -95,8 +104,8 @@
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 217 91% 60%;
-    /* Lighter blue for dark mode */
+    --primary: 94 100% 35.3%;
+    /* Lighter green for dark mode */
     --primary-foreground: 222 47.4% 11.2%;
 
     --secondary: 217 32% 17%;

@@ -5,11 +5,12 @@ import { LanguageProvider } from '@/lib/context/LanguageContext'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ServiceLK - Hire Verified Professionals',
+  title: 'Srilanzer - Hire Verified Professionals',
   description: 'The #1 Service Marketplace in Sri Lanka',
   icons: {
-    icon: '/icon.svg',
-    apple: '/apple-icon.png',
+    icon: '/srilanzericon.png',
+    shortcut: '/srilanzericon.png',
+    apple: '/srilanzericon.png',
   },
 }
 
