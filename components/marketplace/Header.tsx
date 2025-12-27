@@ -43,7 +43,7 @@ export function Header() {
         <div className="flex items-center gap-6 lg:gap-8 flex-1">
           <Link href="/" className="flex items-end">
             <span className="text-2xl md:text-3xl font-medium tracking-tighter text-slate-900">
-              sril<span className="text-primary font-black">anzer</span><span className="text-slate-900 text-4xl leading-none">.</span>
+              sri<span className="text-primary font-black">lanzer</span><span className="text-slate-900 text-4xl leading-none">.</span>
             </span>
           </Link>
 
